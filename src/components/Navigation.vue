@@ -5,7 +5,7 @@
         </div>
 
         <div class="flex items-center font-thin justify-center text-gray-300 space-x-8">
-            <a href="#" class="font-bold">Home</a>  
+            <a href="#" class="font-bold text-gray-200">Home</a>  
             <a href="#">Download App</a>  
             <a href="#">Contact Us</a>  
         </div>
