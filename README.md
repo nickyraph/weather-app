@@ -1,57 +1,7 @@
 # weather-app
 
-This template should help get you started developing with Vue 3 in Vite.
+A practice project build on Vue 3 and Tailwind CSS, with [OpenWeatherMap](https://openweathermap.org/current) API
 
-## Recommended IDE Setup
+## Inspirattion
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Run Headed Component Tests with [Cypress Component Testing](https://on.cypress.io/component)
-
-```sh
-npm run test:unit:dev # or `npm run test:unit` for headless testing
-```
-
-### Run End-to-End Tests with [Cypress](https://www.cypress.io/)
-
-```sh
-npm run test:e2e:dev
-```
-
-This runs the end-to-end tests against the Vite development server.
-It is much faster than the production build.
-
-But it's still recommended to test the production build with `test:e2e` before deploying (e.g. in CI environments):
-
-```sh
-npm run build
-npm run test:e2e
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+[Figma Protoype](https://www.figma.com/proto/uwuMLLooEYUQbWNltjMJL2/Weather-website-%26-Dark-Weather-(Community)?page-id=0%3A1&node-id=1%3A2&viewport=499%2C484%2C0.49&scaling=contain) 
