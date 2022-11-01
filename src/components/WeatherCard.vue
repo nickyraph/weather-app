@@ -1,6 +1,8 @@
 <script >
 
 import CloudyIcon from './icons/CloudyIcon.vue';
+import SunnyIcon from './icons/SunnyIcon.vue';
+import RainyIcon from './icons/RainyIcon.vue';
 import Gradient from './icons/Gradient.vue';
 import moment from 'moment';
 
@@ -29,8 +31,6 @@ export default {
             this.wind_speed = data.wind.speed;
 
             this.condition = data.weather[0].main
-
-            console.log(data)
         
         }
     },
@@ -41,8 +41,11 @@ export default {
 
     },
 
-    components : {
-        CloudyIcon, Gradient
+    components: {
+        CloudyIcon,
+        Gradient,
+        SunnyIcon,
+        RainyIcon
     }
 
 }
@@ -53,8 +56,11 @@ export default {
 
     <div class="py-5 px-3 bg-[#24353E] max-w-lg rounded-lg relative">
         <div class="icon">
-            <div class="absolute top-0 -translate-y-1/2 w-80 -right-1/3">
-                <CloudyIcon />
+            <div class="absolute top-0 -translate-y-1/2 w-80 -right-1/3">   
+                <CloudyIcon v-if="this.condition == 'Clouds'" />
+                <RainyIcon v-if="this.condition == 'Rain'" />
+                <SunnyIcon v-if="this.condition == 'Sun'" /> 
+
             </div>
         </div>
         <div class="space-y-6 px-8 text-white mt-24 mb-6">

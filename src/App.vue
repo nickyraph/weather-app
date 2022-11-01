@@ -17,7 +17,7 @@
 
   <div class="grid grid-cols-3 gap-36 mt-20">
    
-    <WeatherCard city="Dar es Salaam" />
+    <WeatherCard city="Tanga" />
     <WeatherCard city="Arusha" />
     <WeatherCard city="Njombe" />
   </div>
