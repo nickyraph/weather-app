@@ -18,7 +18,7 @@
     </h1>
   </div>
 
-  <!-- <Search /> -->
+  <Search />
 
   <div class="grid grid-cols-3 gap-36 mt-20">
 <!--    
