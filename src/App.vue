@@ -20,11 +20,11 @@
 
   <Search />
 
-  <div class="grid grid-cols-3 gap-36 mt-20">
-<!--    
+  <div class="grid lg:grid-cols-3 lg:gap-36 gap-y-12 lg:gap-y-0 mt-20">
+   
     <WeatherCard city="Tanga" />
     <WeatherCard city="Arusha" />
-    <WeatherCard city="Njombe" /> -->
+    <WeatherCard city="Njombe" />
   </div>
 
 

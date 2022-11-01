@@ -6,19 +6,31 @@
 @tailwind utilities;
 
 body{
-  /* background: #1B262C; */
   background: url('./background.svg') #1B262C;
   background-position: center;
   background-size: cover;
   font-family: 'Poppins', sans-serif;
   overflow-x: hidden;
-
 }
 
+
+
+
 #app {
-  max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
   font-weight: normal;
- 
+}
+
+
+@media screen and (max-width: 480px){
+  
+  #app {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    overflow: hidden;
+  }
+
 }
