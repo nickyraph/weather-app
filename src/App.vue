@@ -1,6 +1,8 @@
 <script setup>
   import Navigation  from './components/Navigation.vue'
   import Search  from './components/Search.vue'
+  import WeatherCard  from './components/WeatherCard.vue'
+  
 </script>
 
 <template>
@@ -12,6 +14,14 @@
   </div>
 
   <Search />
+
+  <div class="grid grid-cols-3 gap-36 mt-20">
+   
+    <WeatherCard city="Dar es Salaam" />
+    <WeatherCard city="Arusha" />
+    <WeatherCard city="Njombe" />
+  </div>
+
 
 </template>
 
