@@ -1,10 +1,14 @@
 <script setup>
-  import { Navigation } from './components/Navigation.vue'
+  import Navigation  from './components/Navigation.vue'
 </script>
 
 <template>
   
-  
+  <Navigation />
+
+  <div class="text-4xl text-center text-white font-medium flex items-center justify-center my-20">
+    <h1>Seeing the weather of the whole world <br> with <span class="bg-clip-text text-transparent font-bold bg-gradient-to-r from-[#CAECFF] to-[#78CFFF]">Dark Weather!</span>  </h1>
+  </div>
 
 </template>
 
