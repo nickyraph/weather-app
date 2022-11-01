@@ -13,13 +13,13 @@
     <h1>Seeing the weather of the whole world <br> with <span class="bg-clip-text text-transparent font-bold bg-gradient-to-r from-[#CAECFF] to-[#78CFFF]">Dark Weather!</span>  </h1>
   </div>
 
-  <Search />
+  <!-- <Search /> -->
 
   <div class="grid grid-cols-3 gap-36 mt-20">
-   
+<!--    
     <WeatherCard city="Tanga" />
     <WeatherCard city="Arusha" />
-    <WeatherCard city="Njombe" />
+    <WeatherCard city="Njombe" /> -->
   </div>
 
 
