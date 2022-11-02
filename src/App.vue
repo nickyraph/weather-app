@@ -2,6 +2,7 @@
   import Navigation  from './components/Navigation.vue'
   import Search  from './components/Search.vue'
   import WeatherCard  from './components/WeatherCard.vue'
+  import WeatherCard2  from './components/WeatherCard2.vue'
   
 </script>
 
@@ -9,7 +10,7 @@
   
   <Navigation />
 
-  <div class="text-2xl lg:text-4xl text-center text-white font-medium flex items-center justify-center my-20">
+  <div class="text-2xl md:text-4xl text-center text-white font-medium flex items-center justify-center my-20">
     <h1>
       Seeing the weather of the whole world <br> with 
       <span class="bg-clip-text text-transparent font-bold bg-gradient-to-r from-[#CAECFF] to-[#78CFFF]">
@@ -20,11 +21,10 @@
 
   <Search />
 
-  <div class="grid lg:grid-cols-3 lg:gap-36 gap-y-12 lg:gap-y-0 mt-20">
-   
-    <WeatherCard city="Tanga" />
-    <WeatherCard city="Arusha" />
-    <WeatherCard city="Njombe" />
+  <div class="w-full grid md:grid-cols-2 gap-10 lg:grid-cols-3 gap-y-12 lg:gap-y-0 mt-20">
+    <WeatherCard2 city="Dar es Salaam"/>
+    <!-- <WeatherCard2 city="Arusha"/>
+    <WeatherCard2 city="Njombe"/> -->
   </div>
 
 
