@@ -55,13 +55,11 @@ export default {
 <template>
 
     <div class="py-5 px-3 bg-[#24353E] max-w-lg rounded-lg relative">
-        <div class="icon">
-            <div class="absolute top-0 -right-1/4 -translate-y-1/3 lg:-translate-y-1/2 w-60 lg:w-80 lg:-right-1/3">   
-                <RainyIcon v-if="this.condition == 'Rain'" />
-                <SunnyIcon v-if="this.condition == 'Sun'" /> 
-                <CloudyIcon v-else="this.condition == 'Clouds'" />
+        <div class="absolute top-0 -right-1/4 -translate-y-1/3 lg:-translate-y-1/2 w-60 lg:w-80 lg:-right-1/3">   
+            <RainyIcon :class="'w-40 -right-[2rem] lg:w-48 lg:-right-[3rem]'" v-if="this.condition == 'Rain'" />
+            <SunnyIcon v-if="this.condition == 'Sun'" /> 
+            <CloudyIcon v-if="this.condition == 'Clouds'" />
 
-            </div>
         </div>
         <div class="space-y-6 px-6 lg:px-8 text-white mt-24 mb-6">
             <h3 class="text-2xl font-bold"> {{ city }} <span class="font-light ml-5">{{ this.temp }}<sup>o</sup>C</span></h3>
