@@ -22,7 +22,9 @@
   <Search />
 
   <div class="w-full grid md:grid-cols-2 gap-10 lg:grid-cols-3 gap-y-12 lg:gap-y-0 mt-20">
-    <WeatherCard2 city="Dar es Salaam"/>
+    <WeatherCard city="Dar es Salaam"/>
+    <WeatherCard city="Arusha"/>
+    <WeatherCard city="Njombe"/>
     <!-- <WeatherCard2 city="Arusha"/>
     <WeatherCard2 city="Njombe"/> -->
   </div>
